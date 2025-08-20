@@ -1,0 +1,14 @@
+[
+    {
+        "ENABLE": "1",
+        "SOURCE": "`UART1_REGS.tx_data[7:0]",
+        "DESTINATION": "`DMA_CHAN0.src_addr[31:0]",
+        "NAME": "uart1_to_dma_chan0"
+    },
+    {
+        "ENABLE": "1",
+        "SOURCE": "`UART1_REGS.control[3:0]",
+        "DESTINATION": "`DMA_CHAN0.enable_bit",
+        "NAME": "uart1_ctrl_to_dma_en"
+    }
+]
