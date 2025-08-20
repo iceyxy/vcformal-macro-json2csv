@@ -1,0 +1,3 @@
+ENABLE,SOURCE,DESTINATION,NAME
+1,chip_7nm_top.u_periph1_wrapper.u_uart1_inst.reg_block.tx_data[7:0],chip_7nm_top.u_periph2_wrapper.u_dma_inst.channel[0].src_addr[31:0],uart1_to_dma_chan0
+1,chip_7nm_top.u_periph1_wrapper.u_uart1_inst.reg_block.control[3:0],chip_7nm_top.u_periph2_wrapper.u_dma_inst.channel[0].enable_bit,uart1_ctrl_to_dma_en
